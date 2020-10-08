@@ -27,6 +27,6 @@ text_to_model_new.py : 從資料庫抓取新聞，以日期比對股價漲幅，
 text_to_model_final.py : 從資料庫抓取新聞，以日期比對股價漲幅，使用TF-IDF向量作為特徵，放入xgboost模型預測21日後股價是否大漲，準確率最高接近9成  
 text_to_model_final_conat.py : 從資料庫抓取新聞，並將相同日期的新聞合併後以日期比對股價漲幅，使用TF-IDF向量作為特徵，放入xgboost模型預測21日後股價是否大漲，準確率最高6成  
 
-## 第一版程式
+### 第一版程式
 text_preprocess.py : 爬取聯合新聞網中，與台積電相關的新聞，比對股價漲幅、放入資料庫  
 text_to_model.py : 從資料庫抓取新聞與是否漲價，使用TF-IDF向量作為特徵，放入svm模型預測隔日股價是否漲價，準確率約7成  
